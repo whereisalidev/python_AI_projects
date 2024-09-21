@@ -18,12 +18,12 @@ with sr.Microphone() as source:
                 print(f"Converting: {text}")
 
                 #If you want converted speech to listen, uncomment this: 
-                # if text:
-                #     obj = pyttsx3.init()
-                #     obj.say(text)
-                #     obj.runAndWait()
-                # else:
-                #     print('error: No text available for this post.')
+                if text:
+                    obj = pyttsx3.init()
+                    obj.say(text)
+                    obj.runAndWait()
+                else:
+                    print('error: No text available for this post.')
             except sr.UnknownValueError:
                 print("Google Speech Recognition could not understand the audio.")
             except sr.RequestError as e:
