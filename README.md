@@ -1,4 +1,4 @@
-## Following Steps should be followed to run this project successfully:
+## Following Steps should be followed to run Chatbot project successfully:
 
 **1) Install these libraries in terminal:**
 ```bash
