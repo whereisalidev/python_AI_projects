@@ -16,8 +16,6 @@ while video.isOpened():
 
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (89, 2, 236), 1)
-
-        # Crop the face region
         face_region = frame[y:y + h, x:x + w]
 
         try:
