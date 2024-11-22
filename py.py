@@ -149,11 +149,11 @@
 
 
 # Remove duplicate elements from an array.
-arr = [5,1,4,5,1]
-for i in range(len(arr)):
-    print(i)
-    for x in range(len(arr)):
-        if arr[i] == arr[x]:
-            arr.remove(arr[i])
+arr = [55,55,66,77]
+unique_arr = []
+for i in arr:
+    if i not in unique_arr:
+        unique_arr.append(i)
 
-print(arr)
+
+print(unique_arr)
