@@ -148,12 +148,81 @@
 
 
 
-# Remove duplicate elements from an array.
-arr = [55,55,66,77]
-unique_arr = []
-for i in arr:
-    if i not in unique_arr:
-        unique_arr.append(i)
+# # Remove duplicate elements from an array.
+# arr = [55,55,66,77]
+# unique_arr = []
+# for i in arr:
+#     if i not in unique_arr:
+#         unique_arr.append(i)
 
 
-print(unique_arr)
+# print(unique_arr)
+
+
+
+
+
+
+# # Merge two sorted arrays into one sorted array.
+# arr1 = [1,64,5,54]
+# arr2 = [4,5,6]
+# new_arr = arr1 + arr2
+# print(new_arr.sort())
+# print(new_arr)
+
+
+
+
+
+
+# # Count the number of words in a given sentence.
+# count = 0
+# sentence = 'This is Syed Ali Hussain Kazmi'
+
+# for i in sentence:
+#     if i != " ":
+#         count += 1
+# print(count)
+
+
+
+
+
+
+# # count the occurrences of 1 in the array
+# arr = [1,2,1,5,1,64,1,1,2,1,3,1]
+# count = 0
+# for i in arr:
+#     if i == 1:
+#         count += 1
+# print(count)
+
+
+
+
+
+# # Write a program that checks whether a given string is a palindrome.
+# string = 'racecasr'
+# reverse_string = ''
+# for i in string:
+#     reverse_string = i + reverse_string
+# if string == reverse_string:
+#     print("string is Palindrome")
+# else:
+#     print("string is NOT Palindrome")
+
+
+
+
+
+
+
+
+# # Find Missing Number in an Array containing distinct elements from 1 to n, except one number.
+# arr = [1,2,3,5,6]
+# num = 1
+# for i in arr:
+#     if i != num:
+#         break
+#     num = i+1
+# print("Missing number is ", num)
