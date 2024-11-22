@@ -226,3 +226,23 @@
 #         break
 #     num = i+1
 # print("Missing number is ", num)
+
+
+
+
+
+
+
+# #  Find the Intersection of Two Arrays
+# arr1 = [1,2,5,3,6]
+# arr2 = [8,9,1]
+# common_elements = []
+
+# for i in arr1:
+#     for j in arr2:
+#         if i == j:
+#             common_elements.append(i)
+# if common_elements != []:
+#     print(common_elements)
+# else:
+#     print("No Common")
