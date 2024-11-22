@@ -60,4 +60,22 @@
 
 
 
-# take as an input of 
+# # take integer as an input from the user and prints the last digit:
+
+# x = int(input("Enter any integer: "))
+# print(x%10)
+
+
+
+# # Reversing the string
+
+# string = "abc"
+# new_string = ""
+
+# for i in string:
+#     new_string = i + new_string
+
+# print(new_string)
+
+
+
